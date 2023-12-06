@@ -11,7 +11,10 @@
     "sourceType": "module"
   },
   "rules": {
-    "strict": ["error", "global"],
+    "strict": [
+      "error",
+      "global"
+    ],
     "semi": "error",
     "array-callback-return": "error",
     "no-constant-binary-expression": "error",
@@ -26,7 +29,10 @@
     "no-unmodified-loop-condition": "warn",
     "camelcase": "warn",
     "consistent-return": "warn",
-    "curly": ["warn", "multi-line"],
+    "curly": [
+      "warn",
+      "multi-line"
+    ],
     "default-param-last": "warn",
     "eqeqeq": "warn",
     "no-else-return": "warn",
@@ -37,10 +43,13 @@
     "no-lonely-if": "warn",
     "no-mixed-operators": "warn",
     "no-return-assign": "error",
-    "no-restricted-properties": ["error", {
-      "property": "lenght",
-      "message": "Did you mean 'length'?"
-    }],
+    "no-restricted-properties": [
+      "error",
+      {
+        "property": "lenght",
+        "message": "Did you mean 'length'?"
+      }
+    ],
     "no-shadow": "warn",
     "no-undefined": "error",
     "no-unneeded-ternary": "warn",
@@ -58,21 +67,33 @@
     "yoda": "warn",
     "arrow-parens": "warn",
     "brace-style": "warn",
-    "comma-dangle": ["warn", "always-multiline"],
+    "comma-dangle": [
+      "warn",
+      "always-multiline"
+    ],
     "comma-spacing": "warn",
     "comma-style": "warn",
     "eol-last": "warn",
-    "indent": ["warn", 2],
+    "indent": [
+      "warn",
+      2
+    ],
     "keyword-spacing": "warn",
-    "max-len": ["warn", {
-      "code": 100,
-      "ignoreComments": true,
-      "ignoreUrls": true,
-      "ignoreTemplateLiterals": true,
-      "ignoreRegExpLiterals": true
-    }],
+    "max-len": [
+      "warn",
+      {
+        "code": 100,
+        "ignoreComments": true,
+        "ignoreUrls": true,
+        "ignoreTemplateLiterals": true,
+        "ignoreRegExpLiterals": true
+      }
+    ],
     "no-trailing-spaces": "warn",
-    "quotes": ["warn", "single"],
+    "quotes": [
+      "warn",
+      "double"
+    ],
     "space-infix-ops": "warn",
     "space-unary-ops": "warn"
   }
