@@ -1,0 +1,13 @@
+{
+  "name": "text-adventure",
+  "version": "1.0.0",
+  "main": "main.js",
+  "type": "module",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.39.0"
+  }
+}
